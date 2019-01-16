@@ -1,0 +1,17 @@
+{
+  "name": "gostadium-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/himiracle/gostadium-server",
+  "author": "blockchain1124 <blockchain1124@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "nodemon": "^1.18.9",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "dev": "cd src && nodemon --exec ts-node index.ts"
+  }
+}
