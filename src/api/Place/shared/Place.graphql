@@ -1,0 +1,14 @@
+type Place {
+  id: Int!
+  name: String!
+  lat: Flaot!
+  lng: Flaot!
+  address: String!
+  isFav: Boolean!
+  createAt: String!
+  updateAt: String
+}
+
+type Query {
+  place: Place
+}
